@@ -1,0 +1,41 @@
+
+
+body {background-image: url("asset/images/backgroung.jpeg");
+    font-family: 'Comic Sans MS', Arial;
+    text-align: center;}
+header {
+    color: white;
+    padding: 15px;
+    font-size: 30px;}
+header p {
+    font-size: 18px;
+    }
+.container {
+    width: 90%;
+    margin: auto;}
+
+.card1 {background-color:#ff4d4d;}  
+.card2 {background-color:#4da6ff;}
+.card3 { background-color:#ffcc00;}
+.card4 {background-color:#33cc66;}
+.card5 {background-color: #ff9933;}
+.card6 {background-color:#b366ff;}
+
+button{
+        width: 30%;
+        height: 120px;
+        margin: 10px;
+        border-radius: 20px;
+        color: antiquewhite;
+        cursor: pointer;
+        font-size: 22px;
+        padding-top: 30px;
+    box-shadow: 50px;}
+button:hover{
+    background-color: lime;
+}
+#image{
+    width:70%;
+    height: 20%;;
+    border-radius:100px;
+}

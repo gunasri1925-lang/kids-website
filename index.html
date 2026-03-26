@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tiny Learners</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+         <h1 id="showtext">Tiny Learners</h1>
+        <p>Let's Learn & Play!</p>
+    </header>
+    <img id="image">
+    <div class="container">
+        <button class="card1" onclick="alphabets()">ALPHABETS</button>
+        <button class="card2" onclick="numbers()">NUMBERS</button>
+        <button class="card3" onclick="colors()">COLORS</button>
+        <button class="card4" onclick="animals()">ANIMALS</button>
+        <button class="card5" onclick="fruits()">FRUITS</button>
+        <button class="card6" onclick="birds()">BIRDS</button>
+   </div>
+    
+
+    <script >
+    
+    function alphabets(){
+        document.getElementById('showtext').innerHTML='ALPHABETS'
+       document.getElementById('image').src='asset/images/abc.png';
+    }
+    function animals(){
+        document.getElementById('showtext').innerHTML='ANIMALS'
+        document.getElementById('image').src='asset/images/animals.png';
+       
+    }
+    function birds(){
+        document.getElementById('showtext').innerHTML='BIRDS'
+        document.getElementById('image').src='asset/images/birds.png';
+    }
+    function colors(){
+        document.getElementById('showtext').innerHTML='COLORS'
+        document.getElementById('image').src='asset/images/colors.png';
+    }
+    function numbers(){
+        document.getElementById('showtext').innerHTML='NUMBERS'
+        document.getElementById('image').src='asset/images/num.png';
+        
+    }
+    function fruits(){
+        document.getElementById('showtext').innerHTML='FRUITS'
+        document.getElementById('image').src='asset/images/fruits.png';
+    }
+</script>
+</body>
+</html>
